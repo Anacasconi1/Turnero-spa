@@ -1,0 +1,80 @@
+.title-appoints {
+    margin-top: 30vh;
+    color: var(--font-color);
+    font-family: var(--font-family);
+    font-size: var(--XXXL);
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+}
+
+.appoint-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.card {
+    margin: var(--XXL);
+    font-family: var(--font-family);
+    width: 200px;
+    height: 30vh;
+    padding: var(--XL);
+    backdrop-filter: blur(30px);
+    transition: 1s ease-in-out;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.texts {
+    font-weight: bold;
+    color: var(--font-color);
+    text-align: center;
+    display: block;
+    font-size: 1em;
+}
+
+.appoint-btn {
+    padding: 0.8em 1.7em;
+    display: block;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: var(--detail-color);
+    color: var(--font-color);
+    transition: 0.4s ease-in-out;
+}
+
+.appoint-btn:hover, .link-form2:hover {
+    background: var(--min-detail-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.appoint-btn:disabled {
+    background-color: grey;
+    color: rgb(63, 54, 54);
+    cursor: default;
+}
+
+.link-form2{
+    font-family: var(--font-family);
+    color: var(--font-color);
+    margin-bottom: var(--XXXL);
+    background-color: var(--detail-color);
+    border-radius: 25px;
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 20vh;
+}
+
+

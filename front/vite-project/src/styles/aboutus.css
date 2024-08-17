@@ -1,0 +1,23 @@
+.about-us-container{
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.strong{
+    font-weight: 700;
+}
+
+.general-container-div-aboutus{
+    margin-top: 30vh;
+}
+
+.title-aboutus{
+    margin-top: 5vh;
+    color: var(--font-color);
+    font-family: var(--font-family);
+    font-size: var(--XXXL);
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+}

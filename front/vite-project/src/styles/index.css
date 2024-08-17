@@ -1,0 +1,88 @@
+:root {
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-color: #babebf;
+
+    --primary-color: #733d29;
+    --secondary-color: #a67356;
+    --detail-color: #15403b;
+    --min-detail-color: #a68053;
+
+    --XS: 1px;
+    --S: 5px;
+    --M: 10px;
+    --L: 15px;
+    --XL: 20px;
+    --XXL: 25px;
+    --XXXL: 30px;
+}
+
+
+body{
+    background-image: url('/spa.jpg');
+    background-size: cover;
+    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    min-height: 110vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: var(--M);
+    padding-right: var(--M);
+    background-color: var(--primary-color);
+}
+
+#banner-home{
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 300px;
+    margin-top: 30vh;
+}
+
+.header-home-page{
+    width: 60vw;
+    padding-top: var(--XXXL);
+}
+
+.home-title{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--XXL);
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: var(--XL);
+}
+
+
+.imgs-home{
+    border-radius: var(--XXL);
+    width: 20vw;
+}
+
+
+
+.all-p{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--XL);
+    font-weight: 300;
+    margin-bottom: var(--XL);
+    width: 800px;
+}
+
+.combo-home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+

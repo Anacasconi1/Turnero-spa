@@ -1,0 +1,21 @@
+
+#root{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    
+}
+.bar-div{
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin: 50px;
+    z-index: 10;
+}
+
